@@ -1,0 +1,646 @@
+NAND flash device configurations ***********************
+Device ID            : 0xbeefdead
+Page size            : 800
+# of pages per block : 80
+# of blocks          : 1000
+# of planes          : 1
+# of dies            : 4
+# of I/O pins        : 8
+NOP                  : 2
+Max erase count      : 100000
+
+Foot-print Information  *******************************
+Read request history is available      :true
+Write request history is available     :true
+Multi-stage foot-print is available    :false
+Bus transaction are printed            :false
+I/O completion foot-print is available :false
+Analysis of cycles is available        :false
+Analysis of power cycles is available  :false
+
+Unit Test Operation Type [WRITE] :0
+LUN ID [0] *******************************************************
+System cycles                                :371772736
+System idle cycles                           :0
+System working cycles                        :371772736
+The number of page read request              :0
+The number of page write request             :256
+The number of block erase request            :0
+IOPS - including idle time                   :688.593
+Throughput(KB/s) - including idle time       :1410.24
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :524288
+
+Die ID                                       :0
+Die the number of page read request          :0
+Die the number of page write request         :256
+Die the number of block erase request        :0
+Die IOPS                                     :688.598
+Die bandwidth (KB/s)                         :1410.25
+Die working cycle                            :371769664
+Die system cycle                             :371772736
+Die I/O traffic (Bytes)                      :524288
+Die NAND Clock Idle Time                     :3582
+Die Host Clock Idle Time                     :0
+Die idle fraction (%)                        :0
+Die resource utilization (%)                 :100
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :371772736
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :371772736
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :371772736
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :371772736
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :371772736
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :371772736
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Unit Test Operation Type [WRITE] :1
+LUN ID [0] *******************************************************
+System cycles                                :361712288
+System idle cycles                           :0
+System working cycles                        :361712288
+The number of page read request              :0
+The number of page write request             :256
+The number of block erase request            :0
+IOPS - including idle time                   :707.745
+Throughput(KB/s) - including idle time       :1449.46
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :524288
+
+Die ID                                       :0
+Die the number of page read request          :0
+Die the number of page write request         :256
+Die the number of block erase request        :0
+Die IOPS                                     :707.755
+Die bandwidth (KB/s)                         :1449.48
+Die working cycle                            :361706912
+Die system cycle                             :361712288
+Die I/O traffic (Bytes)                      :524288
+Die NAND Clock Idle Time                     :8104
+Die Host Clock Idle Time                     :0
+Die idle fraction (%)                        :0
+Die resource utilization (%)                 :100
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :361712288
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :54002592
+Die idle fraction (%)                        :14.9297
+Die resource utilization (%)                 :85.0703
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :361712288
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :54002592
+Die idle fraction (%)                        :14.9297
+Die resource utilization (%)                 :85.0703
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :361712288
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :54002592
+Die idle fraction (%)                        :14.9297
+Die resource utilization (%)                 :85.0703
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+********************************************************
+single die random access readUnit Test Operation Type [READ]: 0
+LUN ID [0] *******************************************************
+System cycles                                :207618048
+System idle cycles                           :0
+System working cycles                        :207618048
+The number of page read request              :2048
+The number of page write request             :0
+The number of block erase request            :0
+IOPS - including idle time                   :9864.27
+Throughput(KB/s) - including idle time       :20202
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :4194304
+
+Die ID                                       :0
+Die the number of page read request          :2048
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :9866.41
+Die bandwidth (KB/s)                         :20206.4
+Die working cycle                            :207572992
+Die system cycle                             :207618048
+Die I/O traffic (Bytes)                      :4194304
+Die NAND Clock Idle Time                     :69620
+Die Host Clock Idle Time                     :0
+Die idle fraction (%)                        :0
+Die resource utilization (%)                 :100
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :207618048
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :207618048
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :207618048
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :207618048
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :207618048
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :207618048
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+single die random access writeUnit Test Operation Type [WRITE]: 0
+LUN ID [0] *******************************************************
+System cycles                                :2974181888
+System idle cycles                           :0
+System working cycles                        :2974181888
+The number of page read request              :0
+The number of page write request             :2048
+The number of block erase request            :0
+IOPS - including idle time                   :688.593
+Throughput(KB/s) - including idle time       :1410.24
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :4194304
+
+Die ID                                       :0
+Die the number of page read request          :0
+Die the number of page write request         :2048
+Die the number of block erase request        :0
+Die IOPS                                     :688.598
+Die bandwidth (KB/s)                         :1410.25
+Die working cycle                            :2974157312
+Die system cycle                             :2974181888
+Die I/O traffic (Bytes)                      :4194304
+Die NAND Clock Idle Time                     :28670
+Die Host Clock Idle Time                     :0
+Die idle fraction (%)                        :0
+Die resource utilization (%)                 :100
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :2974181888
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :2974181888
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :2974181888
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :2974181888
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :2974181888
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :2974181888
+Die idle fraction (%)                        :100
+Die resource utilization (%)                 :0
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+********************************************************
+single die random access writeUnit Test Operation Type [WRITE]: 1
+LUN ID [0] *******************************************************
+System cycles                                :2868898304
+System idle cycles                           :0
+System working cycles                        :2868898304
+The number of page read request              :0
+The number of page write request             :2048
+The number of block erase request            :0
+IOPS - including idle time                   :713.863
+Throughput(KB/s) - including idle time       :1461.99
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :4194304
+
+Die ID                                       :0
+Die the number of page read request          :0
+Die the number of page write request         :2048
+Die the number of block erase request        :0
+Die IOPS                                     :713.874
+Die bandwidth (KB/s)                         :1462.01
+Die working cycle                            :2868855296
+Die system cycle                             :2868898304
+Die I/O traffic (Bytes)                      :4194304
+Die NAND Clock Idle Time                     :65360
+Die Host Clock Idle Time                     :0
+Die idle fraction (%)                        :0
+Die resource utilization (%)                 :100
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :2868898304
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :231386624
+Die idle fraction (%)                        :8.06535
+Die resource utilization (%)                 :91.9347
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :2868898304
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :231386624
+Die idle fraction (%)                        :8.06535
+Die resource utilization (%)                 :91.9347
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :-nan
+Die bandwidth (KB/s)                         :0
+Die working cycle                            :0
+Die system cycle                             :2868898304
+Die I/O traffic (Bytes)                      :0
+Die NAND Clock Idle Time                     :0
+Die Host Clock Idle Time                     :231386624
+Die idle fraction (%)                        :8.06535
+Die resource utilization (%)                 :91.9347
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Unit Test Operation Type [WRITE]: 1
+LUN ID [0] *******************************************************
+System cycles                                :381428384
+System idle cycles                           :0
+System working cycles                        :381428384
+The number of page read request              :0
+The number of page write request             :1024
+The number of block erase request            :0
+IOPS - including idle time                   :2684.65
+Throughput(KB/s) - including idle time       :5498.15
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :2097152
+
+Die ID                                       :0
+Die the number of page read request          :0
+Die the number of page write request         :256
+Die the number of block erase request        :0
+Die IOPS                                     :707.755
+Die bandwidth (KB/s)                         :1449.48
+Die working cycle                            :361706912
+Die system cycle                             :381428384
+Die I/O traffic (Bytes)                      :524288
+Die NAND Clock Idle Time                     :5376
+Die Host Clock Idle Time                     :19716096
+Die idle fraction (%)                        :5.16902
+Die resource utilization (%)                 :94.831
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :256
+Die the number of block erase request        :0
+Die IOPS                                     :707.755
+Die bandwidth (KB/s)                         :1449.48
+Die working cycle                            :361706912
+Die system cycle                             :381428384
+Die I/O traffic (Bytes)                      :524288
+Die NAND Clock Idle Time                     :5376
+Die Host Clock Idle Time                     :19716096
+Die idle fraction (%)                        :5.16902
+Die resource utilization (%)                 :94.831
+Die resource contention time                 :6567936
+Die resource contention ratio (%)            :1.72193
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :256
+Die the number of block erase request        :0
+Die IOPS                                     :707.755
+Die bandwidth (KB/s)                         :1449.48
+Die working cycle                            :361706912
+Die system cycle                             :381428384
+Die I/O traffic (Bytes)                      :524288
+Die NAND Clock Idle Time                     :5376
+Die Host Clock Idle Time                     :19716096
+Die idle fraction (%)                        :5.16902
+Die resource utilization (%)                 :94.831
+Die resource contention time                 :13139968
+Die resource contention ratio (%)            :3.44494
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :256
+Die the number of block erase request        :0
+Die IOPS                                     :707.755
+Die bandwidth (KB/s)                         :1449.48
+Die working cycle                            :361706912
+Die system cycle                             :381428384
+Die I/O traffic (Bytes)                      :524288
+Die NAND Clock Idle Time                     :16552
+Die Host Clock Idle Time                     :19716096
+Die idle fraction (%)                        :5.16902
+Die resource utilization (%)                 :94.831
+Die resource contention time                 :19712000
+Die resource contention ratio (%)            :5.16794
+
+********************************************************
+multiple die random access readUnit Test Operation Type [READ]: 0
+LUN ID [0] *******************************************************
+System cycles                                :261193728
+System idle cycles                           :0
+System working cycles                        :261193728
+The number of page read request              :4096
+The number of page write request             :0
+The number of block erase request            :0
+IOPS - including idle time                   :15681.8
+Throughput(KB/s) - including idle time       :32116.4
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :8388608
+
+Die ID                                       :0
+Die the number of page read request          :1024
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :9866.41
+Die bandwidth (KB/s)                         :20206.4
+Die working cycle                            :103786496
+Die system cycle                             :261193728
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :22528
+Die Host Clock Idle Time                     :157384704
+Die idle fraction (%)                        :60.2559
+Die resource utilization (%)                 :39.7441
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :1024
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :9866.41
+Die bandwidth (KB/s)                         :20206.4
+Die working cycle                            :103786496
+Die system cycle                             :261193728
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :22528
+Die Host Clock Idle Time                     :157384704
+Die idle fraction (%)                        :60.2559
+Die resource utilization (%)                 :39.7441
+Die resource contention time                 :557056
+Die resource contention ratio (%)            :0.213273
+
+Die ID                                       :2
+Die the number of page read request          :1024
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :9866.41
+Die bandwidth (KB/s)                         :20206.4
+Die working cycle                            :103786496
+Die system cycle                             :261193728
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :22528
+Die Host Clock Idle Time                     :157384704
+Die idle fraction (%)                        :60.2559
+Die resource utilization (%)                 :39.7441
+Die resource contention time                 :52576256
+Die resource contention ratio (%)            :20.1292
+
+Die ID                                       :3
+Die the number of page read request          :1024
+Die the number of page write request         :0
+Die the number of block erase request        :0
+Die IOPS                                     :9866.41
+Die bandwidth (KB/s)                         :20206.4
+Die working cycle                            :103786496
+Die system cycle                             :261193728
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :71632
+Die Host Clock Idle Time                     :157384704
+Die idle fraction (%)                        :60.2559
+Die resource utilization (%)                 :39.7441
+Die resource contention time                 :105037824
+Die resource contention ratio (%)            :40.2145
+
+multiple die random access writeUnit Test Operation Type [WRITE]: 0
+LUN ID [0] *******************************************************
+System cycles                                :1644819712
+System idle cycles                           :0
+System working cycles                        :1644819712
+The number of page read request              :0
+The number of page write request             :4096
+The number of block erase request            :0
+IOPS - including idle time                   :2490.24
+Throughput(KB/s) - including idle time       :5100.02
+LUN resource utilization (%)                 :100
+LUN resource utilization including idle (%)  :100
+The amount of requests (Bytes)               :8388608
+
+Die ID                                       :0
+Die the number of page read request          :0
+Die the number of page write request         :1024
+Die the number of block erase request        :0
+Die IOPS                                     :688.598
+Die bandwidth (KB/s)                         :1410.25
+Die working cycle                            :1487078656
+Die system cycle                             :1644819712
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :12288
+Die Host Clock Idle Time                     :157728768
+Die idle fraction (%)                        :9.58943
+Die resource utilization (%)                 :90.4106
+Die resource contention time                 :0
+Die resource contention ratio (%)            :0
+
+Die ID                                       :1
+Die the number of page read request          :0
+Die the number of page write request         :1024
+Die the number of block erase request        :0
+Die IOPS                                     :688.598
+Die bandwidth (KB/s)                         :1410.25
+Die working cycle                            :1487078656
+Die system cycle                             :1644819712
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :12288
+Die Host Clock Idle Time                     :157728768
+Die idle fraction (%)                        :9.58943
+Die resource utilization (%)                 :90.4106
+Die resource contention time                 :52543488
+Die resource contention ratio (%)            :3.19448
+
+Die ID                                       :2
+Die the number of page read request          :0
+Die the number of page write request         :1024
+Die the number of block erase request        :0
+Die IOPS                                     :688.598
+Die bandwidth (KB/s)                         :1410.25
+Die working cycle                            :1487078656
+Die system cycle                             :1644819712
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :12288
+Die Host Clock Idle Time                     :157728768
+Die idle fraction (%)                        :9.58943
+Die resource utilization (%)                 :90.4106
+Die resource contention time                 :105119744
+Die resource contention ratio (%)            :6.39096
+
+Die ID                                       :3
+Die the number of page read request          :0
+Die the number of page write request         :1024
+Die the number of block erase request        :0
+Die IOPS                                     :688.598
+Die bandwidth (KB/s)                         :1410.25
+Die working cycle                            :1487078656
+Die system cycle                             :1644819712
+Die I/O traffic (Bytes)                      :2097152
+Die NAND Clock Idle Time                     :20472
+Die Host Clock Idle Time                     :157728768
+Die idle fraction (%)                        :9.58943
+Die resource utilization (%)                 :90.4106
+Die resource contention time                 :157696000
+Die resource contention ratio (%)            :9.58743
